@@ -1,0 +1,26 @@
+{
+  "name": "cypress-intro-examples",
+  "version": "1.0.0",
+  "description": "Повноцінний Cypress проект з прикладами для навчального курсу",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:record": "cypress run --record --key $CYPRESS_RECORD_KEY",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "e2e",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.8.2",
+    "dotenv-cli": "^11.0.0",
+    "env-cmd": "^11.0.0"
+  }
+}
